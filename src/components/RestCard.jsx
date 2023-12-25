@@ -19,7 +19,7 @@ function RestCard({restaurant}) {
             </Col>
             <Col className=''>
                 <Card.Text>
-                    <p style={{fontSize:'15px'}}>{restaurant.cuisine_type}</p>
+                    <p style={{fontSize:'15px'}}>cuisine : {restaurant.cuisine_type}</p>
                 </Card.Text>
             </Col>
         </Row>

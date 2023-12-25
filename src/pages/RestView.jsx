@@ -33,7 +33,7 @@ dispatch(fetchRestaurantDetails(id))
         <Col md={1}></Col>
 
         <Col md={3} className='mt-5'>
-            <img width={'100%'} height={'75%'} src={selectedRestaurant?.photograph} />
+            <img width={'100%'} height={'400px'} src={selectedRestaurant?.photograph} />
         </Col>
 
         <Col md={7} className='px-5'>
